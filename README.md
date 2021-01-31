@@ -1,9 +1,10 @@
 program: major_minor.py
+python version: 3.5+
 author: Nick Henry
-Usage:
+Usage (linux):
       1. Ensure the song you wish to convert is in wav format and you have python installed.
       2. Move the song into the directory containing this file and scale_mode_transpositions.json
-      3. Type: sudo python major_minor.py --file YOUR_FILENAME_WITH_EXTENSION.wav
+      3. Type: sudo python3 major_minor.py --file YOUR_FILENAME_WITH_EXTENSION.wav
         (sudo is needed due to the scipy wav write library)
       4. Follow the prompts. Use all lowercase letters and denote the key letter using e.g. a# instead of bb.
         (I have not added input verification yet)
